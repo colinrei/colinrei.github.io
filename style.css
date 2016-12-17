@@ -1,0 +1,389 @@
+/* @override 
+	http://colinreillybootstrap.com/style.css */
+
+
+@media (min-width:1300px) {
+	.container {
+		width: 1270px;
+	}
+}
+
+.additional-screenshots {
+	display: none;
+}
+
+
+.bg-wrapper {
+
+}
+
+.bg-wrapper:hover {
+
+}
+
+
+.bg-wrapper .project-description a:link {
+	padding: 3px;
+	text-decoration: underline;
+	text-decoration-style: dotted;
+}
+
+.lacrosse-bg a:link {
+	color: #224183;
+}
+
+.naturesweet-bg a:link {
+	color: #f54e0c;
+}
+
+.durbins-bg a:link {
+	color: #117018;
+}
+
+.topcobrand-bg a:link {
+	
+}
+
+/*.bg-wrapper:hover a:link {
+	background: rgba(0,0,0,.3);
+	color: #fff;
+	padding: 3px;
+}
+
+.bg-wrapper a:focus, .bg-wrapper a:hover,  {
+	text-decoration: none;
+}
+
+.bg-wrapper:hover {
+	transition: all .5s ease;
+}
+
+.bg-wrapper:hover h1, .bg-wrapper:hover h4, .bg-wrapper:hover div.project-description {
+	transition: all .5s ease;
+}
+
+.bg-wrapper:hover .project-image-wrap .image-mask img {
+	transform: translate3d(0px, -220px, 0px);
+	transition: transform 1s ease-in-out;
+}
+
+.lacrosse-bg:hover {
+	background: #253a6f;
+}
+
+.lacrosse-bg:hover h1, .lacrosse-bg:hover h4, .lacrosse-bg:hover div.project-description {
+	color: #fff !important;
+}
+
+.lacrosse-bg:hover .col.project-info {
+	text-shadow: -1px -1px 0px rgba(0,0,0, .3);
+}
+
+.naturesweet-bg:hover {
+	background: #fcee5a;
+}
+
+.durbins-bg:hover {
+	background: #117018;
+}
+
+.durbins-bg:hover h1, .durbins-bg:hover h4, .durbins-bg:hover div.project-description {
+	color: #fff !important;
+}
+
+.durbins-bg:hover .col.project-info {
+	text-shadow: -1px -1px 0px rgba(0,0,0, .3);
+}
+
+
+.topcobrands-bg:hover {
+	background: #2ea1e0;
+}
+
+.topcobrands-bg:hover h1, .topcobrands-bg:hover h4, .topcobrands-bg:hover div.project-description {
+	color: #fff !important;
+}
+
+.topcobrands-bg:hover .col.project-info {
+	text-shadow: -1px -1px 0px rgba(0,0,0, .3);
+}
+
+
+.bestfreeapps-bg:hover {
+	background: #117018;
+}
+
+.bestfreeapps-bg:hover h1, .bestfreeapps-bg:hover h4, .bestfreeapps-bg:hover div.project-description {
+	color: #fff !important;
+}
+
+.bestfreeapps-bg:hover .col.project-info {
+	text-shadow: -1px -1px 0px rgba(0,0,0, .3);
+}
+
+
+*/
+
+
+body {
+	font-family: 'Montserrat';
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+h1 {
+	font-size: 42px;	
+	letter-spacing: -1px;
+}
+
+h2 {
+	font-size: 36px;
+}
+
+h3 {
+	font-size: 26px;
+}
+
+h4 {
+	font-size: 18px;
+}
+
+.top-bar {
+	color: #fff;
+	text-align: center;
+	padding: 15px 0 0 0;
+	font-size: 12px;
+}
+
+.navbar-header, .navbar-nav {
+	display: none;
+}
+
+.intro-message {
+	text-align: center;
+	padding: 25px 0 25px 0;
+}
+
+.intro-message h4 {
+
+}
+
+.intro-message .no-recruiters {
+	padding: 25px 0 0px 0;
+}
+
+.intro-message a {
+	background: #0085b7;
+	color: #fff;
+	font-size: 14px;
+	padding: 1px 5px;
+}
+
+.intro-message a.typeform-link {
+	background: #83cbca;
+} 
+
+.intro-message a.linkedin-link {
+	
+} 
+
+.intro-message a.twitter-link {
+	background: #00a2ec;
+} 
+
+.featured-3-columns h3 {
+	text-align: center;
+}
+
+.featured-3-columns .description {
+	opacity: .15;
+	transition: all 1s ease-in-out; 
+	transform: scale(.75);
+}
+
+.featured-3-columns .col:hover .description {
+	opacity: 1;
+	transform: scale(.95);
+}
+
+.row.featured-3-columns sub {
+
+}
+
+.featured-3-columns p {
+	font-size: 18px;
+	/*line-height: 28px;*/
+	color: #666;
+}
+
+
+.project-row {
+	padding: 30px 0;
+}
+
+
+
+.project-image-wrap {
+	max-width: 640px;
+	/*margin: 0 auto;*/
+}
+
+
+.bg-wrapper:hover .project-image-wrap {
+	max-width: 640px;
+	
+}
+
+.bg-wrapper .project-image-wrap:after {
+	content: '';
+	background: url('img/arrow-project.png');
+	visibility: visible;
+	position: absolute;
+	top: 40px;
+	right: 45px;
+	width: 38px;
+	height: 131px;
+	transition: all .5s ease-in-out; 
+	opacity: 0;
+}
+
+.bg-wrapper:hover .project-image-wrap:after {
+	visibility: visible;
+	transition: all .5s ease-in-out; 
+	opacity: 1;
+	right: -10px;	
+}
+
+.bg-wrapper .project-info {
+	padding-top: 100px;
+	transition: all .5s ease-in-out; 
+}
+
+.bg-wrapper:hover .project-info {
+	padding-top: 0px;
+	/*transition: all .5s ease-in-out;*/
+}
+
+.bg-wrapper .project-info .project-description {
+	transition: all .5s ease-in-out; 
+	opacity: 0;
+	height: 0px;
+	overflow: hidden;
+}
+
+.bg-wrapper:hover .project-info .project-description {
+	transition: all .5s ease-in-out; 
+	opacity: 1;
+	height: auto;
+	overflow: visible;
+}
+
+
+.project-image-wrap img {
+	width: 100%;
+}
+
+.project-image-wrap .image-mask {
+	max-width: 640px;
+	height: 423px;
+	overflow: hidden;
+}
+
+@media (min-width:320px) and (max-width:992px) {
+
+.project-image-wrap {
+	margin: 0 auto;
+}
+
+
+.project-image-wrap .image-mask {
+	height: auto;
+}
+	
+}
+
+@media (min-width:992px) {
+	.project-image-wrap .image-mask img:hover {
+		transform: translate3d(0px, -200px, 0px);
+		transition: transform 1s ease-in-out;
+	}
+}
+
+@media (min-width:1200px) {
+
+
+.project-image-wrap .image-mask img {
+	transform: translate3d(0px, 0px, 0px);
+	transition: transform 1s ease-in-out;
+}
+
+.project-image-wrap .image-mask img:hover {
+	transform: translate3d(0px, -230px, 0px);
+}
+
+.naturesweet-project .project-image-wrap .image-mask img:hover {
+	
+}
+
+.lacrosse-project .project-image-wrap .image-mask img:hover {
+	transform: translate3d(0px, -490px, 0px);
+	transition: transform 1s ease-in-out;
+}
+
+.bestfreeapps-project .project-image-wrap .image-mask img:hover {
+	transform: translate3d(0px, -1020px, 0px);
+	transition: transform 2s ease-in-out;
+}
+
+.durbins-project .project-image-wrap .image-mask img:hover {
+	transform: translate3d(0px, -415px, 0px);
+	transition: transform 1s ease-in-out;
+}
+
+.topcobrands-project .project-image-wrap .image-mask img:hover {
+	transform: translate3d(0px, -1150px, 0px);
+	transition: transform 3s ease-in-out;
+}
+
+}
+
+.col.project-info {
+	text-shadow: 1px 1px 0px rgba(255,255,255, .6);
+}
+
+.project-info {
+/*	transition: transform .5s ease-in-out;
+	opacity: .5;*/
+}
+
+.bg-wrapper:hover .project-info {
+	/*opacity: 1;*/
+}
+
+.project-info .project-logo {
+	text-align: center;
+	margin-top: 20px;
+}
+
+.project-info h1, .project-info h4 {
+	text-align: center;
+} 
+
+.project-info h1 {
+	margin-top: 20px;
+}
+
+.project-info h4 {
+	margin-bottom: 25px;
+	color: #666;
+}
+
+.project-info .project-description {
+	font-size: 16px;
+	line-height: 26px;
+	color: #444;
+}
+
+.project-info .project-description a:link {
+	font-size: 14px;
+}
